@@ -15,4 +15,4 @@ Es una aplicación basada en servidores y contenedores la cual ofrecerá informa
    # BaseDatos.db
    Este archivo contendrá la información de los usuarios que accedan a la aplicación web. De acuerdo con esta información se procederá a      realizar el gráfico en el archivo grafico.html y se tendrá de base para graficar nuevos casos de Covid-19 no confirmados en caso de que    el usuario tenga el virus
    # Contenedor en docker
-   En el contenedor se almacenarán los archivos ya mencionados en el ubuntu que se usará para el servicio (se tendrá ya instalados el          flask, el pip y la versión de python que se necesitan para soportar el servicio además de la versión apache que se necesita). Así al        momento de levantar una imagen en memoría lo unico que se hará es levantar el servicio 
+   En el contenedor se almacenarán los archivos ya mencionados en el ubuntu que se usará para el servicio (se tendrá ya instalados el          flask, el pip y la versión de python que se necesitan para soportar el servicio además de la versión apache que se necesita). Así al        momento de levantar una imagen en memoría lo único que se hará es levantar el servicio 
