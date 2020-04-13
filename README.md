@@ -5,6 +5,8 @@ Es una aplicación basada en servidores y contenedores la cual ofrecerá informa
 # ARQUITECTURA
    # README
    Contendrá el informe y la arquitectura del proyecto de la aplicación web
+   # Dockerfile
+   Este archivo directamente relacionado con el contenedor se encargará de ejecutar las instrucciones necesarias al momento de montar el servidor. Levantara los servicios necesarios y ejecutará el .py por debajo de memoria
    # principal.html
    Este archivo de hipertexto contendrá la interfaz de entrada que verá el usuario. Aca se obtendran los datos del usuario (incluyendo su      localización actual y si ha tenido covid-19) y se redireccionará al archivo proyect.py
    # proyect.py
